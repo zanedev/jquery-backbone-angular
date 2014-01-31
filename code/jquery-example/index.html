@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Jquery Example</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Library of Books</h1>
+
+        <p id="intro">
+            Welcome to our Library!
+        </p>
+
+        <div class="books-section">
+            <h2>Available Books</h2>
+            <ul id="available-books">
+                <li>Seventh Winter <button type="button" class="btn btn-info btn-xs checkout-book">Checkout Book</button></li>
+                <li>The Smooth Flame <button type="button" class="btn btn-info btn-xs checkout-book">Checkout Book</button></li>
+                <li>Snake of Thief <button type="button" class="btn btn-info btn-xs checkout-book">Checkout Book</button></li>
+            </ul>
+        </div>
+
+        <div class="books-section checked-out-books">
+            <h2>Checked Out Books</h2>
+            <ul id="checked-out-books">
+                <li>Slave in the Predator <button type="button" class="btn btn-warning btn-xs return-book">Return Book</button></li>
+                <li>Secrets of Shards <button type="button" class="btn btn-warning btn-xs return-book">Return Book</button></li>
+            </ul>
+        </div>
+
+        <div class="books-section add-new-books">
+            <form role="form">
+                <div class="form-group">
+                    <label for="book-name">Add New Book</label>
+                    <input id="book-name" class="form-control" placeholder="Enter book name" name="book-name" type="text" value="">
+                </div>
+                <button id="add-book" class="btn btn-primary btn-sm">Add Book</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../lib/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

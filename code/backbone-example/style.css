@@ -1,0 +1,42 @@
+body {
+    background-color: #666;
+}
+
+h1, h2 {
+    color:#333333;
+}
+
+#intro {
+    font-size: 18px;
+    padding-bottom:10px;
+    border-bottom:1px solid #ccc;
+}
+
+.container {
+    background: white;
+    padding-bottom:10px;
+    width:500px;
+    margin: 0 auto;
+    margin-top:20px;
+    border:1px solid #666;
+    border-radius: 5px;
+}
+
+ul {
+    padding-left:0;
+}
+
+li {
+    list-style: none;
+    width:100%;
+    padding:10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+li button {
+    float:right;
+}
+
+.books-section {
+    margin-bottom:20px;
+}
