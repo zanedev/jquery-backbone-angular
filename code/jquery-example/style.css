@@ -6,7 +6,6 @@ h1, h2 {
     color:#333333;
 }
 
-
 #intro {
     font-size: 18px;
     padding-bottom:10px;
@@ -32,9 +31,7 @@ li {
     width:100%;
     padding:10px 0;
     border-bottom: 1px solid #ccc;
-
 }
-
 
 li button {
     float:right;

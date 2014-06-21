@@ -3,7 +3,6 @@
 var libraryApp = angular.module('libraryApp', []);
 
 libraryApp.controller('LibraryCtrl', function ($scope) {
-
     $scope.availableBooks = [
         {'title': 'Seventh Winter'},
         {'title': 'The Smooth Flame'},
